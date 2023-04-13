@@ -1,3 +1,50 @@
-body {
-    background-color: brown;
+.L{
+    background: #FFFFFF;
+    border: 1px solid red;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.image-link{
+    background: #FFFFFF;
+    border: 1px solid red;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.tst{
+   
+    box-shadow: 0px 5px 5px rgba(0, 0, 0,1);
+    text-decoration: none;
+}
+.content-section {
+    padding-top: 0;
+  }
+  .photos {
+    gap: 30px;
+    display: flex;
+  
+    flex-wrap: wrap;
+  }
+  .portfolio-image-link{
+  
+    text-decoration: none;
+    /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 1), 0px 4px 4px rgba(0, 0, 0, 1), 1px 4px 6px rgba(0, 0, 0, 0.16); */
+  /* outline: red solid 10px; */
+  }
+  .portfolio-image-link:hover,
+  .portfolio-image-link:focus{
+    box-shadow: 0px 5px 5px rgb(0 0 0);
+  }
+  /* .image-box:hover,
+  .image-box:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 1), 0px 4px 4px rgba(0, 0, 0, 1), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  } */
+  
+.aaz{
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 1), 0px 4px 4px rgba(0, 0, 0, 1), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.funny{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  
 }
